@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { Dimensions, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { useQuery } from '@tanstack/react-query';
 import { getDetail } from '@/utils/api';
@@ -60,6 +60,8 @@ const styles = StyleSheet.create({
     color: COLORS.dealText,
     fontFamily: 'OpenSans-Regular',
     fontSize: 12,
-    lineHeight: 16.34
+    lineHeight: 16.34,
+    flexWrap: "wrap",
+    width: Dimensions.get('screen').width-80
   }
 });
