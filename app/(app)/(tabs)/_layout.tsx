@@ -32,7 +32,7 @@ const Layout = () => {
         <Tabs.Screen
           name="index"
           options={{
-            title: 'Partner portal',
+            title: 'Partner Portal',
             headerShown: false,
             tabBarLabel: ({ focused }) => (
               <Text style={{ fontFamily: focused ? 'OpenSans-Bold' : 'OpenSans-Regular', fontSize: 12, lineHeight: 16.34 }}>
@@ -81,7 +81,7 @@ function TabActionButton() {
   const [typeRedeem, setTypeRedeem] = useState('');
 
   const handleOpenSheet = () => {
-    const options = ["Neue QR-Code hochladen", "Enter manually", "Abbrechen"];
+    const options = ["QR Code scannen", "Gutschein manuell hinzufügen", "Abbrechen"];
     const cancelButtonIndex = 2;
 
     showActionSheetWithOptions(

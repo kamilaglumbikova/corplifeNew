@@ -51,7 +51,7 @@ const ProfilScreen = () => {
                         </View>
                     </View>
                     <Text style={styles.textInfo}>
-                        Wenn du  Ihre Daten ändern möchten, wenden Sie sich bitte an Ihre service@corplife.at.
+                        Wenn du  Ihre Daten ändern möchten, wenden Sie sich bitte an Ihre pm@corplife.at.
                     </Text>
                 </View>
                 <View style={styles.dataContainer}>

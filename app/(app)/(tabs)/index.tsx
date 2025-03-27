@@ -55,7 +55,7 @@ export default function HomeScreen() {
                   <View style={{ gap: 8 }}>
                     <View style={{ gap: 3 }}>
                       <Text style={styles.textNormal}>Gesamtverkauf (€):</Text>
-                      <Text style={styles.textBold}>{(merchantInfo as Merchant)?.total_vouchers} (€{Number(160000).toFixed(2)})</Text>
+                      <Text style={styles.textBold}>{(merchantInfo as Merchant)?.total_vouchers} (€{Number((merchantInfo as Merchant)?.total_amount).toFixed(2)})</Text>
                     </View>
                     <View style={{ gap: 3 }}>
                       {/* Redeem vouchers */}
